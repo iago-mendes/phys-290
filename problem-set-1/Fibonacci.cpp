@@ -15,6 +15,6 @@ int main() {
 		if (i > 1)
 			fibonacci_list.push_back(fibonacci_list[i-1] + fibonacci_list[i-2]);
 
-		printf("%d: %ld\n", i+1, fibonacci_list[i]);
+		printf("%2d: %ld\n", i+1, fibonacci_list[i]);
 	}
 }
