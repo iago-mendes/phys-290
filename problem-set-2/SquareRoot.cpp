@@ -55,5 +55,5 @@ int main() {
 	printf("FC:  ");
 	iterate(FC, .1, 100);
 
-	printf("Ref: %.16f\n", sqrt(2));
+	printf("Ref: %.16f\n", sqrt(n));
 }
