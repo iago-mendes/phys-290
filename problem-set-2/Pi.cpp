@@ -1,4 +1,6 @@
-// Iago Braz Mendes (T01362926)
+/**
+ * This program calculates the value of pi by bisection.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

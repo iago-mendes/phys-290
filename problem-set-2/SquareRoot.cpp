@@ -1,4 +1,7 @@
-// Iago Braz Mendes (T01362926)
+/**
+ * This program calculates the square root of n by fixed-point iteration.
+ * It does this using 3 different functions with distinct convergence rates. 
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -7,14 +10,17 @@ using namespace std;
 
 double n = 2;
 
+// linear convergence
 double FA(double x) {
 	return .2 * x + .8 * n / x;
 }
 
+// quadratic convergence
 double FB(double x) {
 	return .5 * (x + n / x);
 }
 
+// cubic convergence
 double FC(double x) {
 	double num = x * (pow(x, 2) + 3 * n);
 	double den = 3 * pow(x, 2) + n;
