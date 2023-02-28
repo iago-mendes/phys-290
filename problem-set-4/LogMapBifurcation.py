@@ -50,7 +50,7 @@ def CreateLogMapBifurcation(Niterations):
 	plt.ylabel(f'x after {Niterations} iterations')
 	plt.show()
 
-CreateLogMapBifurcation(5)
-CreateLogMapBifurcation(10)
-CreateLogMapBifurcation(100)
+# CreateLogMapBifurcation(5)
+# CreateLogMapBifurcation(10)
+# CreateLogMapBifurcation(100)
 CreateLogMapBifurcation(1000)
